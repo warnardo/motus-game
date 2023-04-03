@@ -21,7 +21,7 @@ for i in dictionnaire:
 '''
 
 liste_mots=[]
-f=open("C:\\Users\Formation\python\motus_game\Mots.json","r" ,encoding="utf-8-sig")
+f=open("Mots.json","r" ,encoding="utf-8-sig")
 file=json.load(f)
 def strip_accents(s):
    return ''.join(c for c in unicodedata.normalize('NFD', s)
